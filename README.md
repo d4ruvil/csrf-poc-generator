@@ -2,8 +2,6 @@
 
 A Chrome extension that automatically generates Cross-Site Request Forgery (CSRF) Proof of Concept exploits from existing web forms. This tool is designed for security professionals and penetration testers to quickly create CSRF PoC demonstrations.
 
-![CSRF PoC Generator Icon](icon.png)
-
 ## Features
 
 - 🚀 One-click CSRF PoC generation
