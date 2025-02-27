@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSRF PoC Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>CSRF PoC Generator</h1>
+            <p class="subtitle">Generate CSRF proof of concept easily</p>
+        </div>
+
+        <div class="button-container">
+            <button id="generate" class="btn primary-btn">
+                Extract & Generate PoC
+            </button>
+        </div>
+
+        <div class="textarea-container">
+            <label for="csrfOutput" class="textarea-label">Generated PoC Output:</label>
+            <textarea 
+                id="csrfOutput" 
+                rows="8" 
+                placeholder="Generated PoC will appear here..."
+            ></textarea>
+        </div>
+
+        <div class="button-container button-group">
+            <button id="copy" class="btn secondary-btn">
+                Copy PoC
+            </button>
+            <button id="download" class="btn secondary-btn">
+                Download PoC
+            </button>
+        </div>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="autoSubmit" checked>
+            <label for="autoSubmit">Auto-submit form</label>
+        </div>
+
+        <div id="status" aria-live="polite" class="status-message"></div>
+        
+        <div class="watermark">
+            Created by <a href="https://github.com/d4ruvil" target="_blank">@d4ruvil</a>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

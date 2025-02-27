@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "CSRF PoC Generator",
+    "version": "1.0",
+    "description": "Automatically generates a CSRF PoC HTML file for the current page.",
+    "author": "@d4ruvil",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}
